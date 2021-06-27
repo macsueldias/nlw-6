@@ -13,7 +13,7 @@ import { RoomCode } from '../componentes/RoomCode';
 import { useRoom } from '../Hooks/useRoom';
 //import { database } from '../services/firebase';
 
-import '../styles/room.scss'
+import '../styles/admin-Room.scss'
 import { database } from '../services/firebase';
 import { useHistory } from 'react-router-dom';
 

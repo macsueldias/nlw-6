@@ -9,6 +9,15 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            div {
+                display: flex;
+                gap: 25px;
+            }
+
+            Button {
+                max-height: 40px;
+            }
         }
     }
 
@@ -126,17 +135,30 @@
 
 @media (max-width: 380px) {
     #page-room {
+        box-sizing: content-box ;
         header {
             padding: 5px;
+
             .content {
-                gap: 10px;
-                > img {
-                    width: 100vw;
+                width: 100%;
+                flex-direction: column;
+                img {
+                    justify-content: flex-start;
                     max-height: 70px;
                 }
-                
-                Button{
-                    height: 35px;
+
+                button.room-code {
+                    width: 250px;
+
+                    div {
+                        width: 40px;
+                    }
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    width: 250px;
                 }
             }
         }
@@ -152,9 +174,6 @@
                 h1 {
                     font-size: 18px;
                 }
-
-
-               
             }
         }
 

@@ -12,4 +12,4 @@ export function Button({isOutlined =  false, ...props }: ButtonProps) {
     )
 }
 
-<Button />
+//<Button />

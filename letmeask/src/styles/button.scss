@@ -37,3 +37,10 @@
         cursor: not-allowed;
     }
 }
+
+@media(max-width: 380px) {
+    .button{
+        width: 250px;
+        padding: 8px;
+    }
+}

@@ -29,3 +29,9 @@
         font-weight: 500;
     }
 }
+
+@media(max-width: 380px) {
+    .room-code{
+        height: 38px;
+    }
+}
