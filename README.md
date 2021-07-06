@@ -16,14 +16,13 @@
  * [SASS](#SASS)
 <!--te-->
 
-<h3>Status</h3>
-🚧 Desenvolvendo responsividade<br>
-- [x]Desktop
-- [x]Mobile
-- [ ]Tablet
-... 🚀
+### Status
+🚧 Desenvolvendo responsividade...  🚀
+- [x] Desktop
+- [x] Mobile
+- [ ] Tablet
+
+
 
 <h3>Link</h3>
 <a href="https://leatmeask-c55ec.web.app/">Clique aqui e visite!</a> 
-
-
